@@ -1,0 +1,19 @@
+<? php
+  class Category
+  {
+    private $catId;
+    private $catEn;
+    private $catFr;
+    private $catVn;
+    
+    __Construct($catId=null,$catEn=null,catFr=null,catVn=null)
+    {
+      $this->catID=$catId;
+      $this->catEn=$catEn;
+      $this->catFr=$catFr;
+      $this->catVn=$catVn;
+    }
+    
+  }
+
+?>
